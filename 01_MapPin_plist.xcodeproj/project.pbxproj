@@ -16,6 +16,8 @@
 		F52C99471F70B5E2002D9AA9 /* _1_MapPin_plistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52C99461F70B5E2002D9AA9 /* _1_MapPin_plistUITests.swift */; };
 		F52C99561F70B62B002D9AA9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52C99551F70B62B002D9AA9 /* MapKit.framework */; };
 		F52C99581F70B98B002D9AA9 /* ViewPoint3.plist in Resources */ = {isa = PBXBuildFile; fileRef = F52C99571F70B98B002D9AA9 /* ViewPoint3.plist */; };
+		F5F4F8981F7390C200C42BC5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F4F8971F7390C200C42BC5 /* 2.jpg */; };
+		F5F4F89A1F7390CB00C42BC5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F4F8991F7390CB00C42BC5 /* 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F52C99481F70B5E2002D9AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F52C99551F70B62B002D9AA9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F52C99571F70B98B002D9AA9 /* ViewPoint3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ViewPoint3.plist; path = "../../../../Downloads/MapPinPList-master 2/MapPinPLiist/ViewPoint3.plist"; sourceTree = "<group>"; };
+		F5F4F8971F7390C200C42BC5 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../../../Downloads/2.jpg; sourceTree = "<group>"; };
+		F5F4F8991F7390CB00C42BC5 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = ../../../../Downloads/3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 		F52C99251F70B5E2002D9AA9 /* 01_MapPin_plist */ = {
 			isa = PBXGroup;
 			children = (
+				F5F4F8991F7390CB00C42BC5 /* 3.jpg */,
+				F5F4F8971F7390C200C42BC5 /* 2.jpg */,
 				F52C99261F70B5E2002D9AA9 /* AppDelegate.swift */,
 				F52C99281F70B5E2002D9AA9 /* ViewController.swift */,
 				F52C992A1F70B5E2002D9AA9 /* Main.storyboard */,
@@ -249,6 +255,8 @@
 			files = (
 				F52C99311F70B5E2002D9AA9 /* LaunchScreen.storyboard in Resources */,
 				F52C992E1F70B5E2002D9AA9 /* Assets.xcassets in Resources */,
+				F5F4F8981F7390C200C42BC5 /* 2.jpg in Resources */,
+				F5F4F89A1F7390CB00C42BC5 /* 3.jpg in Resources */,
 				F52C99581F70B98B002D9AA9 /* ViewPoint3.plist in Resources */,
 				F52C992C1F70B5E2002D9AA9 /* Main.storyboard in Resources */,
 			);
@@ -521,6 +529,7 @@
 				F52C994D1F70B5E2002D9AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F52C994E1F70B5E2002D9AA9 /* Build configuration list for PBXNativeTarget "01_MapPin_plistTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +538,7 @@
 				F52C99501F70B5E2002D9AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F52C99511F70B5E2002D9AA9 /* Build configuration list for PBXNativeTarget "01_MapPin_plistUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +547,7 @@
 				F52C99531F70B5E2002D9AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
